@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>CA77</title>
-        <link>http://localhost:1313/</link>
-        <description>Recent content on CA77</description>
+        <title>高等统计物理 on CA77</title>
+        <link>http://localhost:1313/categories/adv.sm/</link>
+        <description>Recent content in 高等统计物理 on CA77</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/adv.sm/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>高等统计物理</title>
         <link>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
@@ -16,21 +16,6 @@
 &lt;/h1&gt;&lt;p&gt;教材:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R K Pathria, Paul D Beale. &lt;em&gt;Statistical Mechanics&lt;/em&gt;, 3rd ed. 中译本: 统计力学, 第三版. 方锦, 戴越译. 北京: 高等教育出版社, 2017.9.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>高等量子力学</title>
-        <link>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</link>
-        <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</guid>
-        <description>&lt;h1 id=&#34;高等量子力学---advanced-quantum-mechanics-advqm&#34;&gt;高等量子力学 - Advanced Quantum Mechanics &lt;code&gt;adv.qm&lt;/code&gt;
-&lt;/h1&gt;&lt;p&gt;教材:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;J J Sakurai, Jim Napolitano. &lt;em&gt;Modern Quantum Mechanics&lt;/em&gt;, 2nd ed. Cambridge University Press, 2017.&lt;/li&gt;
-&lt;li&gt;曾谨言. &lt;em&gt;量子力学&lt;/em&gt;, 卷II. 5版, ed. 现代物理学丛书. 北京: 科学出版社, 2014.1.&lt;/li&gt;
-&lt;li&gt;M E Peskin, D V Schroeder. &lt;em&gt;An Introduction to Quantum Field Theory&lt;/em&gt;. CRC Press, 2018.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         </item>
@@ -150,22 +135,6 @@
 \[
     S(N,V,E)\simeq Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B
 \]</description>
-        </item>
-        <item>
-        <title>Archives</title>
-        <link>http://localhost:1313/archives/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>http://localhost:1313/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/search/</guid>
-        <description></description>
         </item>
         
     </channel>
