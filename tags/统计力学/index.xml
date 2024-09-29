@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>统计力学 on CA77</title>
-        <link>http://localhost:1313/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/</link>
+        <link>https://FlowerCA77.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/</link>
         <description>Recent content in 统计力学 on CA77</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="https://FlowerCA77.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>高等统计物理</title>
-        <link>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</link>
+        <link>https://FlowerCA77.github.io/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
         
-        <guid>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</guid>
+        <guid>https://FlowerCA77.github.io/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</guid>
         <description>&lt;h1 id=&#34;高等统计物理---advanced-statistical-mechanics-advsm&#34;&gt;高等统计物理 - Advanced Statistical Mechanics &lt;code&gt;adv.sm&lt;/code&gt;
 &lt;/h1&gt;&lt;p&gt;教材:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R K Pathria, Paul D Beale. &lt;em&gt;Statistical Mechanics&lt;/em&gt;, 3rd ed. 中译本: 统计力学, 第三版. 方锦, 戴越译. 北京: 高等教育出版社, 2017.9.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;contents&#34;&gt;Contents
-&lt;/h1&gt;&lt;h2 id=&#34;chapter-1---single-system--thermodynamicsp热力学系统&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;Chapter 1 - Single System &amp;amp; Thermodynamics&lt;/a&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;chapter-1---single-system--thermodynamicsp热力学系统&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://FlowerCA77.github.io/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;Chapter 1 - Single System &amp;amp; Thermodynamics&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;我们从单个系统出发, 研究一个具体的多粒子系统的行为, 将其与热力学唯象理论对比.&lt;/p&gt;
 </description>
         </item>
