@@ -63,6 +63,9 @@
 &lt;li&gt;物质 — 被困在每个系统中无法交换&lt;/li&gt;
 &lt;li&gt;能量 — 可以在两个系统之间交换，但无法向环境交换&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;{{ with .Resources.GetMatch &amp;ldquo;fig1-1.png&amp;rdquo; }}
+&lt;img src=&#34;{{ .RelPermalink }}&#34; width=&#34;{{ .Width }}&#34; height=&#34;{{ .Height }}&#34;&gt;
+{{ end }}&lt;/p&gt;
 &lt;p&gt;用指标 \( i=1,2 \) 来区分两个系统，设两个系统的总能量(明显恒定)为 \( E^{(0)}=E_1+E_2=\text{const} \)，则总系统的状态数为
 &lt;/p&gt;
 \[
@@ -173,7 +176,8 @@
 \[
     S(N,V,E)\simeq Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B
 \]&lt;h2 id=&#34;gibbs-计数修正&#34;&gt;Gibbs 计数修正
-&lt;/h2&gt;&lt;p&gt;教材里的混合熵实验已经能说明问题了，修正的方法就是在上述计算中令 \( S\leftarrow S-k_B\log(N!) \) ，这样得出的熵叫做 &lt;strong&gt;Sackur-Tetrode 方程&lt;/strong&gt; ，即
+&lt;/h2&gt;&lt;p&gt;我们来考虑气体的混合问题。&lt;/p&gt;
+&lt;p&gt;修正的方法就是在上述计算中令 \( S\leftarrow S-k_B\log(N!) \) ，这样得出的熵叫做 &lt;strong&gt;Sackur-Tetrode 方程&lt;/strong&gt; ，即
 &lt;/p&gt;
 \[\begin{split}
     S(N,V,E) &amp;= Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B - k_B(N\log N-N)\\

@@ -370,6 +370,9 @@
 <li>物质 — 被困在每个系统中无法交换</li>
 <li>能量 — 可以在两个系统之间交换，但无法向环境交换</li>
 </ul>
+<p>{{ with .Resources.GetMatch &ldquo;fig1-1.png&rdquo; }}
+<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ end }}</p>
 <p>用指标 \( i=1,2 \) 来区分两个系统，设两个系统的总能量(明显恒定)为 \( E^{(0)}=E_1+E_2=\text{const} \)，则总系统的状态数为
 </p>
 \[
@@ -480,7 +483,8 @@
 \[
     S(N,V,E)\simeq Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B
 \]<h2 id="gibbs-计数修正">Gibbs 计数修正
-</h2><p>教材里的混合熵实验已经能说明问题了，修正的方法就是在上述计算中令 \( S\leftarrow S-k_B\log(N!) \) ，这样得出的熵叫做 <strong>Sackur-Tetrode 方程</strong> ，即
+</h2><p>我们来考虑气体的混合问题。</p>
+<p>修正的方法就是在上述计算中令 \( S\leftarrow S-k_B\log(N!) \) ，这样得出的熵叫做 <strong>Sackur-Tetrode 方程</strong> ，即
 </p>
 \[\begin{split}
     S(N,V,E) &= Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B - k_B(N\log N-N)\\
