@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="高统第二章，系综理论基本原理 + 微正则系综">
+<title>系综理论</title>
+
+<link rel='canonical' href='http://localhost:1313/p/%E7%B3%BB%E7%BB%BC%E7%90%86%E8%AE%BA/'>
+
+<link rel="stylesheet" href="/scss/style.min.663803bebe609202d5b39d848f2d7c2dc8b598a2d879efa079fa88893d29c49c.css"><meta property='og:title' content="系综理论">
+<meta property='og:description' content="高统第二章，系综理论基本原理 + 微正则系综">
+<meta property='og:url' content='http://localhost:1313/p/%E7%B3%BB%E7%BB%BC%E7%90%86%E8%AE%BA/'>
+<meta property='og:site_name' content='CA77'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='统计力学' /><meta property='article:tag' content='凝聚态物理' /><meta property='article:tag' content='物理学' /><meta property='article:published_time' content='2024-09-28T19:56:03&#43;08:00'/><meta property='article:modified_time' content='2024-09-28T19:56:03&#43;08:00'/>
+<meta name="twitter:title" content="系综理论">
+<meta name="twitter:description" content="高统第二章，系综理论基本原理 + 微正则系综">
+    <link rel="shortcut icon" href="/favicon.png" />
+<style>
+    :root {
+        --sys-font-family: "Noto Sans SC";
+        --zh-font-family: "Noto Serif SC";
+        --base-font-family: "Fredoka";
+        --code-font-family: "Inconsolata";
+        --article-font-family: "Bitter", "Noto Serif SC";
+    }
+</style>
+
+<script>
+    (function () {
+        const customFont = document.createElement("link");
+        customFont.href = "https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    })();
+
+    (function () {
+        const customFont = document.createElement("link");
+        customFont.href = "https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    })();
+
+    (function () {
+        const customFont = document.createElement("link");
+        customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@200..900&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    })();
+
+    (function () {
+        const customFont = document.createElement("link");
+        customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    })();
+
+    (function () {
+        const customFont = document.createElement("link");
+        customFont.href = "https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    })();
+</script>
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu17806192823286815243.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">CA77</a></h1>
+            <h2 class="site-description">Huazhong University of Science and Technology, Wuhan, China</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://space.bilibili.com/438302027'
+                        target="_blank"
+                        title="Bilibili"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-bilibili"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 10a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v6a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4v-6z" /><path d="M8 3l2 3" /><path d="M16 3l-2 3" /><path d="M9 13v-2" /><path d="M15 11v2" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://github.com/FlowerCA77'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/p/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/'
+                        
+                        title="Profile"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-user-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h.5" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/p/%E9%AB%98%E7%AD%89%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-atom"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12v.01" /><path d="M19.071 4.929c-1.562 -1.562 -6 .337 -9.9 4.243c-3.905 3.905 -5.804 8.337 -4.242 9.9c1.562 1.561 6 -.338 9.9 -4.244c3.905 -3.905 5.804 -8.337 4.242 -9.9" /><path d="M4.929 4.929c-1.562 1.562 .337 6 4.243 9.9c3.905 3.905 8.337 5.804 9.9 4.242c1.561 -1.562 -.338 -6 -4.244 -9.9c-3.905 -3.905 -8.337 -5.804 -9.9 -4.242" /></svg>
+                
+                <span>Adv. Quantum Mechanics</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-test-pipe"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 8.04l-12.122 12.124a2.857 2.857 0 1 1 -4.041 -4.04l12.122 -12.124" /><path d="M7 13h8" /><path d="M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6z" /><path d="M15 3l6 6" /></svg>
+                
+                <span>Adv. Statistical Physics</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/categories/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                
+                <span>Categories</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/p/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/' >
+                
+                
+                
+                    <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-user-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h.5" /><path d="M18 22l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.242 2.242 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.242 2.242 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296z" /></svg>
+                
+                <span>Profile</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#相空间">相空间</a></li>
+    <li><a href="#系综-ensemble">系综 (Ensemble)</a></li>
+    <li><a href="#liouville-方程">Liouville 方程</a></li>
+    <li><a href="#微正则系综--the-microcanonical-ensemble">微正则系综 — The Microcanonical Ensemble</a></li>
+    <li><a href="#实例-1--理想气体">实例 1 — 理想气体</a></li>
+    <li><a href="#实例-2--1-维谐振子">实例 2 — 1 维谐振子</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/adv.sm/" style="background-color: #2a9d8f; color: #fff;">
+                高等统计物理
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E7%B3%BB%E7%BB%BC%E7%90%86%E8%AE%BA/">系综理论</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            高统第二章，系综理论基本原理 &#43; 微正则系综
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Sep 28, 2024</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p><a class="link" href="/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/" >返回目录</a></p>
+<h1 id="系综理论--ensemble-theory">系综理论 — Ensemble Theory
+</h1><p>我们在本章考虑系综理论，首先我们来明确系统和系综的含义。</p>
+<h2 id="相空间">相空间
+</h2><p>任意时刻，一组相坐标 \( (q,p)=(q_1,\cdots,q_{3N},p_1,\cdots,p_{3N}) \) 被视作系统的一个状态，因此这些坐标构成的 \( 6N \) 维空间将被视作系统的“坐标空间”，我们称之为 <strong>相空间</strong> 。相空间的前 \( 3N \) 维子空间描述系统的位形，称为 <strong>位形空间</strong> ，后 \( 3N \) 维描述系统的动量。换言之， \( 6N \) 维相空间正被视为 \( N \) 粒子构成的系统空间，其中每一个点都代表一个 \( N \) 粒子系统。</p>
+<p>我们在 <a class="link" href="/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/" >第一章</a> 中详细研究了单个系统的行为，但我们引入了 <strong>等概率原理</strong> 这一重要的假设，也就是说我们研究的这个“单系统”应该被视作全部可能系统在某种意义上的代表，这就引出了所谓“系综”。</p>
+<h2 id="系综-ensemble">系综 (Ensemble)
+</h2><p>正如我们所说，我们不再考虑单个系统。我们在每一时刻都考虑大量系统的 “illusory copies” （假想的副本），系统以相等的概率在这些副本之间选择，这种集合 {illusory copies} 就被称为系综。由于每个系统都为相空间中的一个点，因此系综可以被视作相空间上的流体。</p>
+<p>我们知道，系统的运动方程为 Hamilton 正则方程</p>
+\[ \dot{q}_i=\frac{\partial H(q, p)}{\partial p_i},\qquad\dot{p}_i=-\frac{\partial H(q, p)}{\partial q_i} \]<p>系统的能量 \( E \) 给定，也就是说系综应该被限制在曲面 \( H(q,p)=E \) 上。根据我们在 <a class="link" href="/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/" >第一章</a> 中对理想气体的研究，我们宁愿将曲面 \( H(q,p)=E \) 扩宽成壳层 \( E-\dfrac{1}{2}\Delta < H(q,p) < E+\dfrac{1}{2}\Delta \) ，以 \( \Gamma \) 来代替 \( \Omega \) 进行计数。</p>
+<p>我们用 \( \rho(q,p,t) \) 来表示在相空间给定点 \( q,p \) 处时间 \( t \) 时的系统密度，考虑力学量 \( f(q,p) \) 的系综平均值</p>
+\[ \braket{f}=f\ 的系综平均=\frac{\displaystyle{\int f(q,p)\rho(q,p,t)d^{3N}qd^{3N}p}}{\displaystyle{\int \rho(q,p,t)d^{3N}qd^{3N}p}}\]<p>这个值被称为 \( f \) 的统计观测值。</p>
+<h2 id="liouville-方程">Liouville 方程
+</h2><p>作为在相空间上的“系统”流体，系综自然也服从流体力学的基本原理，即连续性方程</p>
+\[ \frac{\partial}{\partial t}\rho(q,p,t)+\mathop{\rm div}[\rho(q,p,t)\bm v]=0 \]<p>其中 \( \bm v \) 为相速度，div 为相空间的 \( 3N \) 维散度。我们把上式散度化简，代入 Hamilton 正则方程，很容易得到</p>
+\[ \frac{\partial\rho}{\partial t}+\{\rho, H\}=0 \]<p>上式中的花括号为 Poisson 括号。这个式子被称为 <strong>Liouville 方程</strong> ，容易看出左边正式 \( \dfrac{d\rho}{dt}=\dfrac{\partial\rho}{\partial t}+\{\rho, H\} \) ，因此上述方程也就是 \( \dfrac{d\rho}{dt}=0 \) 。</p>
+<p>我们将 \( \dfrac{\partial\rho}{\partial t}\equiv 0 \) 的系综称为 <strong>平衡态系综</strong> ，这些系综中各个系统都处于热平衡。</p>
+<h2 id="微正则系综--the-microcanonical-ensemble">微正则系综 — The Microcanonical Ensemble
+</h2><p>微正则系综描述着以 \( N,V,E \) 确定的宏观态对应的系统集合，然而正像我们前面说的，我们宁愿用 \( \left(E-\dfrac{1}{2}\Delta, E+\dfrac{1}{2}\Delta\right) \) 这个区间来代替具体的能量 \( E \) 。我们用 \( \omega=(q,p) \) 来表示相空间的测度，即 \( d\omega=d^{3N}qd^{3N}p \) ，则微正则系综在相空间内占据的体积为</p>
+\[ \omega = \int'd\omega=\int' d^{3N}qd^{3N}p \]<p>其中带 \( \prime \) 的积分表示在区域 \( E-\dfrac{1}{2}\Delta < H(\omega) < E+\dfrac{1}{2}\Delta \) 中的积分。</p>
+<p>根据等概率原理，我们知道微正则系综的密度应该是均匀的，即</p>
+\[ \rho(\omega)=\begin{dcases} \text{const}, & E-\dfrac{1}{2}\Delta < H(\omega) < E+\dfrac{1}{2}\Delta \\ 0, & \text{otherwise} \end{dcases} \]<p>上式不含时间，说明微正则系综是稳定系综，即系统间处于热平衡，因此我们有</p>
+\[\begin{split}
+\braket{f}&=f\ 的系综平均\\
+&= (f\ 的系综平均)\ 的时间平均\\
+&= (f\ 的时间平均)\ 的系综平均\\
+&= f\ 的长时间平均 = f_{\ 期望值}
+\end{split}\]<p>为了确定状态数，我们需要确定一个基本度量 \( \omega_0 \) ，这个度量相当于状态计数的单位，即 \( \omega \) 体积内的状态数可以渐进表示为 \( \Gamma\simeq\dfrac{\omega}{\omega_0} \) ，此时熵 \( S=k_B\log\Gamma \) 。我们先放出结论，对于自由度为 \( f \) 的系统构成的微正则系综， \( \omega_0=h^f \) 为 Planck 常数的 \( f \) 次幂。</p>
+<h2 id="实例-1--理想气体">实例 1 — 理想气体
+</h2><p>系综的体积为</p>
+\[\begin{split}
+    \omega &= \int' d\omega=\int' d^{3N}q \int' d^{3N}p \\
+    &= V^N\mathop{\displaystyle{\int\cdots\int}}\limits_{\left(E-\frac{1}{2}\Delta\right) < \sum_{r=1}^{3N}\frac{p_r^2}{2m} < \left(E+\frac{1}{2}\Delta\right)}d^{3N}p\xlongequal{y_r^2=\frac{p_r^2}{2m}} V^N\mathop{\displaystyle{\int\cdots\int}}\limits_{2m\left(E-\frac{1}{2}\Delta\right) < \sum_{r=1}^{3N}y_r^2 < 2m\left(E+\frac{1}{2}\Delta\right)}d^{3N}y
+\end{split}\]<p>我们用 \( S_{n-1}(R) \) 和 \( V_n(R) \) 来表示 \( n \) 维球的表面积和体积，注意到 \( dV_n(R)=S_{n-1}(R)dR \) ，上式等于</p>
+\[\omega = V_{3N}\left[\sqrt{2m\left(E+\frac{1}{2}\Delta\right)}\right] - V_{3N}\left[\sqrt{2m\left(E-\frac{1}{2}\Delta\right)}\right] \simeq 
+\Delta\sqrt{\frac{m}{2E}} S_{3N-1}\left(\sqrt{2mE}\right) \]<p>算出为 \( \omega\simeq\dfrac{\Delta}{E}V^N\dfrac{(2\pi mE)^{3N/2}}{[(3N/2)-1]!} \) ，回到 <a class="link" href="/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/" >第一章</a> 中对理想气体的研究中得到的 \( \Gamma \) ，两式相除得到 \( (\omega/\Gamma)_\text{asymptotic}\equiv\omega_0=h^{3N} \) 。</p>
+<h2 id="实例-2--1-维谐振子">实例 2 — 1 维谐振子
+</h2><p>一维谐振子的 Hamilton 量为 \( H(\omega)=\dfrac{p^2}{2m}+\dfrac{1}{2}m\omega^2q^2 \) ，通过求解 Liouville 方程可以确定其相空间轨迹为如下椭圆：</p>
+\[\frac{q^2}{2E/m\omega^2}+\frac{p^2}{2mE}=1\]<p>其面积为 \( \pi\cdot\sqrt{\dfrac{2E}{m\omega^2}}\cdot\sqrt{2mE}=\dfrac{2\pi E}{\omega} \) ，考虑此式的差值即为</p>
+\[\omega=\int'd\omega=\left.\dfrac{2\pi E}{\omega}\right|_{E-\frac{1}{2}\Delta}^{E+\frac{1}{2}\Delta}=\frac{2\pi\Delta}{\omega}\]<p>我们知道，谐振子的相邻两条能级之间的间距为 \( \hbar\omega=\dfrac{h\omega}{2\pi} \) ，因此状态数应该接近于 \( \Gamma\simeq\dfrac{\Delta}{\hbar\omega}=\dfrac{2\pi\Delta}{h\omega} \) ，由此基本体积确定为 \( \omega_0\simeq\dfrac{\omega}{\Gamma}=h \) ，这与 Heisenberg 的不确定性关系 \( \left(\Delta q\Delta p\right)_{\min}\simeq h \ 量级 \) 不谋而合。</p>
+<p><a class="link" href="/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/" >返回目录</a></p>
+<p><a class="link" href="/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/" >上一篇</a></p>
+<p><a class="link" href="/p/%e7%b3%bb%e7%bb%bc%e7%90%86%e8%ae%ba/" >下一篇</a></p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/">统计力学</a>
+        
+            <a href="/tags/%E5%87%9D%E8%81%9A%E6%80%81%E7%89%A9%E7%90%86/">凝聚态物理</a>
+        
+            <a href="/tags/%E7%89%A9%E7%90%86%E5%AD%A6/">物理学</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%B3%BB%E7%BB%9F/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">热力学系统</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">高等统计物理</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2024 CA77
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.27.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

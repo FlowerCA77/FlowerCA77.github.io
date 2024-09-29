@@ -2,32 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on CA77</title>
-        <link>https://FlowerCA77.github.io/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on CA77</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="https://FlowerCA77.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>统计力学</title>
-        <link>https://FlowerCA77.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/</link>
+        <link>http://localhost:1313/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
         
-        <guid>https://FlowerCA77.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/</guid>
+        <guid>http://localhost:1313/tags/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6/</guid>
         <description></description>
         </item>
         <item>
         <title>物理学</title>
-        <link>https://FlowerCA77.github.io/tags/%E7%89%A9%E7%90%86%E5%AD%A6/</link>
+        <link>http://localhost:1313/tags/%E7%89%A9%E7%90%86%E5%AD%A6/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
         
-        <guid>https://FlowerCA77.github.io/tags/%E7%89%A9%E7%90%86%E5%AD%A6/</guid>
+        <guid>http://localhost:1313/tags/%E7%89%A9%E7%90%86%E5%AD%A6/</guid>
         <description></description>
         </item>
         <item>
         <title>量子力学</title>
-        <link>https://FlowerCA77.github.io/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</link>
+        <link>http://localhost:1313/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
         
-        <guid>https://FlowerCA77.github.io/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</guid>
+        <guid>http://localhost:1313/tags/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>凝聚态物理</title>
+        <link>http://localhost:1313/tags/%E5%87%9D%E8%81%9A%E6%80%81%E7%89%A9%E7%90%86/</link>
+        <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
+        
+        <guid>http://localhost:1313/tags/%E5%87%9D%E8%81%9A%E6%80%81%E7%89%A9%E7%90%86/</guid>
         <description></description>
         </item>
         

@@ -2,33 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>高等统计物理 on CA77</title>
-        <link>https://FlowerCA77.github.io/categories/adv.sm/</link>
+        <link>http://localhost:1313/categories/adv.sm/</link>
         <description>Recent content in 高等统计物理 on CA77</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="https://FlowerCA77.github.io/categories/adv.sm/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/adv.sm/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>高等统计物理</title>
-        <link>https://FlowerCA77.github.io/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</link>
+        <link>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
         
-        <guid>https://FlowerCA77.github.io/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</guid>
+        <guid>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</guid>
         <description>&lt;h1 id=&#34;高等统计物理---advanced-statistical-mechanics-advsm&#34;&gt;高等统计物理 - Advanced Statistical Mechanics &lt;code&gt;adv.sm&lt;/code&gt;
 &lt;/h1&gt;&lt;p&gt;教材:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R K Pathria, Paul D Beale. &lt;em&gt;Statistical Mechanics&lt;/em&gt;, 3rd ed. 中译本: 统计力学, 第三版. 方锦, 戴越译. 北京: 高等教育出版社, 2017.9.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;contents&#34;&gt;Contents
-&lt;/h1&gt;&lt;h2 id=&#34;chapter-1---single-system--thermodynamicsp热力学系统&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://FlowerCA77.github.io/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;Chapter 1 - Single System &amp;amp; Thermodynamics&lt;/a&gt;
+&lt;/h1&gt;&lt;h2 id=&#34;chapter-1---single-system--thermodynamicsp热力学系统&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;Chapter 1 - Single System &amp;amp; Thermodynamics&lt;/a&gt;
 &lt;/h2&gt;&lt;p&gt;我们从单个系统出发, 研究一个具体的多粒子系统的行为, 将其与热力学唯象理论对比.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>热力学系统</title>
-        <link>https://FlowerCA77.github.io/p/%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%B3%BB%E7%BB%9F/</link>
+        <link>http://localhost:1313/p/%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%B3%BB%E7%BB%9F/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
         
-        <guid>https://FlowerCA77.github.io/p/%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%B3%BB%E7%BB%9F/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://FlowerCA77.github.io/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
+        <guid>http://localhost:1313/p/%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%B3%BB%E7%BB%9F/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;热力学系统---thermodynamics-system&#34;&gt;热力学系统 - Thermodynamics System
 &lt;/h1&gt;&lt;p&gt;统计力学旨在以研究分子系统的方式来研究物质的性质，为此我们考虑单个多分子系统的动力学，并与热力学的唯象理论对比。&lt;/p&gt;
 &lt;ul&gt;
@@ -48,7 +48,7 @@
 &lt;li&gt;物质 — 被困在每个系统中无法交换&lt;/li&gt;
 &lt;li&gt;能量 — 可以在两个系统之间交换，但无法向环境交换&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://FlowerCA77.github.io/figures/adv_sm_fig1-1.svg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/figures/adv_sm_fig1-1.svg&#34;
 	
 	
 	
@@ -168,7 +168,7 @@
     S(N,V,E)\simeq Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B
 \]&lt;h2 id=&#34;gibbs-计数修正&#34;&gt;Gibbs 计数修正
 &lt;/h2&gt;&lt;p&gt;我们来考虑气体的混合问题。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://FlowerCA77.github.io/figures/adv_sm_fig1-2.svg&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/figures/adv_sm_fig1-2.svg&#34;
 	
 	
 	
@@ -215,6 +215,28 @@
 &lt;/p&gt;
 \[ \langle n_i\rangle\ll 1 \]&lt;p&gt;
 以保证对换尽可能不破坏 \( N,V,E \) 宏观态条件，这个要求往往适用于温度充分高、密度充分低的气体。在极低温或极高密度情况下，我们需要让 \( W\{n_i\}=1 \) ，在后面我们看到这个要求导出的结果正是量子统计的结论。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;上一篇&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%b3%bb%e7%bb%bc%e7%90%86%e8%ae%ba/&#34; &gt;下一篇&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>系综理论</title>
+        <link>http://localhost:1313/p/%E7%B3%BB%E7%BB%BC%E7%90%86%E8%AE%BA/</link>
+        <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E7%B3%BB%E7%BB%BC%E7%90%86%E8%AE%BA/</guid>
+        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;系综理论---ensemble-theory&#34;&gt;系综理论 - Ensemble Theory
+&lt;/h1&gt;&lt;p&gt;我们在本章考虑系综理论，首先我们来明确系统和系综的含义。&lt;/p&gt;
+&lt;h2 id=&#34;相空间&#34;&gt;相空间
+&lt;/h2&gt;&lt;p&gt;任意时刻，一组相坐标 \( (q,p)=(q_1,\cdots,q_{3N},p_1,\cdots,p_{3N}) \) 被视作系统的一个状态，因此这些坐标构成的 \( 6N \) 维空间将被视作系统的“坐标空间”，我们称之为 &lt;strong&gt;相空间&lt;/strong&gt; 。相空间的前 \( 3N \) 维子空间描述系统的位形，称为 &lt;strong&gt;位形空间&lt;/strong&gt; ，后 \( 3N \) 维描述系统的动量。换言之， \( 6N \) 维相空间正被视为 \( N \) 粒子构成的系统空间，其中每一个点都代表一个 \( N \) 粒子系统。&lt;/p&gt;
+&lt;p&gt;我们在 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;第一章&lt;/a&gt; 中详细研究了单个系统的行为，但我们引入了 &lt;strong&gt;等概率原理&lt;/strong&gt; 这一重要的假设，也就是说我们研究的这个“单系统”应该被视作全部可能系统在某种意义上的代表，这就引出了所谓“系综”。&lt;/p&gt;
+&lt;h2 id=&#34;系综-ensemble&#34;&gt;系综 (Ensemble)
+&lt;/h2&gt;&lt;p&gt;正如我们所说，我们不再考虑单个系统。我们在每一时刻都考虑大量系统的 “illusory copies” （假想的副本），系统以相等的概率在这些副本之间选择，这种集合 {illusory copies} 。由于每个系统都为相空间中的一个点，因此&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;上一篇&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%b3%bb%e7%bb%bc%e7%90%86%e8%ae%ba/&#34; &gt;下一篇&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         
