@@ -7,44 +7,21 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <lastBuildDate>Sat, 28 Sep 2024 19:56:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>代码测试</title>
-        <link>http://localhost:1313/p/%E4%BB%A3%E7%A0%81%E6%B5%8B%E8%AF%95/</link>
-        <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/%E4%BB%A3%E7%A0%81%E6%B5%8B%E8%AF%95/</guid>
-        <description>&lt;p&gt;测试：代码 &lt;code&gt;code&lt;/code&gt; 为&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cout&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;s&#34;&gt;&amp;#34;Hello world&amp;#34;&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;std&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;endl&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
         <title>高等统计物理</title>
         <link>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</link>
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E7%BB%9F%E8%AE%A1%E7%89%A9%E7%90%86/</guid>
-        <description>&lt;h1 id=&#34;高等统计物理---advanced-statistical-mechanics-advsm&#34;&gt;高等统计物理 - Advanced Statistical Mechanics &lt;code&gt;adv.sm&lt;/code&gt;
+        <description>&lt;img src="http://localhost:1313/covers/adv_sm.jpg" alt="Featured image of post 高等统计物理" /&gt;&lt;h1 id=&#34;高等统计物理---advanced-statistical-mechanics-advsm&#34;&gt;高等统计物理 - Advanced Statistical Mechanics &lt;code&gt;adv.sm&lt;/code&gt;
 &lt;/h1&gt;&lt;p&gt;教材:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R K Pathria, Paul D Beale. &lt;em&gt;Statistical Mechanics&lt;/em&gt;, 3rd ed. 中译本: 统计力学, 第三版. 方锦, 戴越译. 北京: 高等教育出版社, 2017.9.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;contents&#34;&gt;Contents
 &lt;/h1&gt;&lt;h2 id=&#34;chapter-1---single-system--thermodynamicsp热力学系统&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;Chapter 1 - Single System &amp;amp; Thermodynamics&lt;/a&gt;
-&lt;/h2&gt;&lt;p&gt;我们从单个系统出发, 研究一个具体的多粒子系统的行为, 将其与热力学唯象理论对比.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;我们从单个系统出发, 研究一个具体的多粒子系统的行为，将其与热力学唯象理论对比。&lt;/p&gt;
+&lt;h2 id=&#34;chapter-2---ensemble-theory-and-the-microcanonical-ensemblep系综理论&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%b3%bb%e7%bb%bc%e7%90%86%e8%ae%ba&#34; &gt;Chapter 2 - Ensemble Theory and The Microcanonical Ensemble&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;现在我们转入系综 —— 系统的系统，并研究了一种具体的系综 —— 微正则系综。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -53,7 +30,7 @@
         <pubDate>Sat, 28 Sep 2024 19:56:07 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86/</guid>
-        <description></description>
+        <description>&lt;img src="http://localhost:1313/profile.jpg" alt="Featured image of post 个人简历" /&gt;</description>
         </item>
         <item>
         <title>高等量子力学</title>
@@ -61,7 +38,7 @@
         <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E9%AB%98%E7%AD%89%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6/</guid>
-        <description>&lt;h1 id=&#34;高等量子力学---advanced-quantum-mechanics-advqm&#34;&gt;高等量子力学 - Advanced Quantum Mechanics &lt;code&gt;adv.qm&lt;/code&gt;
+        <description>&lt;img src="http://localhost:1313/covers/adv_qm.jpg" alt="Featured image of post 高等量子力学" /&gt;&lt;h1 id=&#34;高等量子力学---advanced-quantum-mechanics-advqm&#34;&gt;高等量子力学 - Advanced Quantum Mechanics &lt;code&gt;adv.qm&lt;/code&gt;
 &lt;/h1&gt;&lt;p&gt;教材:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;J J Sakurai, Jim Napolitano. &lt;em&gt;Modern Quantum Mechanics&lt;/em&gt;, 2nd ed. Cambridge University Press, 2017.&lt;/li&gt;
@@ -76,15 +53,15 @@
         <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%B3%BB%E7%BB%9F/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;热力学系统---thermodynamics-system&#34;&gt;热力学系统 - Thermodynamics System
+        <description>&lt;img src="http://localhost:1313/adv_sm_chap1.jpg" alt="Featured image of post 热力学系统" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;热力学系统--thermodynamics-system&#34;&gt;热力学系统 — Thermodynamics System
 &lt;/h1&gt;&lt;p&gt;统计力学旨在以研究分子系统的方式来研究物质的性质，为此我们考虑单个多分子系统的动力学，并与热力学的唯象理论对比。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;微观态 — 系统的 Schrodinger 方程的解，形如 \( \psi=\psi(\bm r_1,\bm r_2,\cdots,\bm r_N) \) 。&lt;/li&gt;
 &lt;li&gt;宏观态 — 系统的一组可测量的统计学量，例如: 系统的能量 \( E \) ，分子数 \( N \) ，容器的体积 \( V \) 等等&lt;/li&gt;
 &lt;li&gt;状态数 — \( \Omega(N,V,E) \) : 在以 \( (N,V,E) \) 确定的宏观态中允许的微观态数量&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;统计力学基本假设---等概率原理&#34;&gt;统计力学基本假设 - 等概率原理
+&lt;h2 id=&#34;统计力学基本假设--等概率原理&#34;&gt;统计力学基本假设 — 等概率原理
 &lt;/h2&gt;&lt;p&gt;&lt;strong&gt;在以 \( (N,V,E) \) 确定的宏观态中，允许的微观态在热力学极限下以相等的概率出现。&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;热力学极限 — 在保持分子数密度 \( n=\dfrac{N}{V} \) 不变的情况下让 \( N\to\infty，V\to\infty \)&lt;/li&gt;
@@ -203,7 +180,7 @@
 我们用体积来渐进
 &lt;/p&gt;
 \[
-    \Sigma_N(E^*)\simeq\frac{1}{2^{3N}}\left\{\frac{\pi^{3N/2}}{(3N/2)!}{E^*}^{3N/2}\right\}    
+    \Sigma_N(E^*)\simeq\frac{1}{2^{3N}}V_{3N}(\sqrt{E^*})=\frac{1}{2^{3N}}\left\{\frac{\pi^{3N/2}}{(3N/2)!}{E^*}^{3N/2}\right\}    
 \]&lt;p&gt;
 式中大括号内为 \( 3N \) 维空间中半径 \( \sqrt{E^*} \) 的球的体积，\( 2^{3N} \) 为 \( 3N \) 维空间的卦限数，相当于取坐标轴正轴的卦限。在上式利用 Striling 公式将阶乘化为对数，代入计算，最终可以得到
 &lt;/p&gt;
@@ -274,14 +251,46 @@
         <pubDate>Sat, 28 Sep 2024 19:56:03 +0800</pubDate>
         
         <guid>http://localhost:1313/p/%E7%B3%BB%E7%BB%BC%E7%90%86%E8%AE%BA/</guid>
-        <description>&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&#34;系综理论---ensemble-theory&#34;&gt;系综理论 - Ensemble Theory
+        <description>&lt;img src="http://localhost:1313/adv_sm_chap2.jpg" alt="Featured image of post 系综理论" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;系综理论--ensemble-theory&#34;&gt;系综理论 — Ensemble Theory
 &lt;/h1&gt;&lt;p&gt;我们在本章考虑系综理论，首先我们来明确系统和系综的含义。&lt;/p&gt;
 &lt;h2 id=&#34;相空间&#34;&gt;相空间
 &lt;/h2&gt;&lt;p&gt;任意时刻，一组相坐标 \( (q,p)=(q_1,\cdots,q_{3N},p_1,\cdots,p_{3N}) \) 被视作系统的一个状态，因此这些坐标构成的 \( 6N \) 维空间将被视作系统的“坐标空间”，我们称之为 &lt;strong&gt;相空间&lt;/strong&gt; 。相空间的前 \( 3N \) 维子空间描述系统的位形，称为 &lt;strong&gt;位形空间&lt;/strong&gt; ，后 \( 3N \) 维描述系统的动量。换言之， \( 6N \) 维相空间正被视为 \( N \) 粒子构成的系统空间，其中每一个点都代表一个 \( N \) 粒子系统。&lt;/p&gt;
 &lt;p&gt;我们在 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;第一章&lt;/a&gt; 中详细研究了单个系统的行为，但我们引入了 &lt;strong&gt;等概率原理&lt;/strong&gt; 这一重要的假设，也就是说我们研究的这个“单系统”应该被视作全部可能系统在某种意义上的代表，这就引出了所谓“系综”。&lt;/p&gt;
 &lt;h2 id=&#34;系综-ensemble&#34;&gt;系综 (Ensemble)
-&lt;/h2&gt;&lt;p&gt;正如我们所说，我们不再考虑单个系统。我们在每一时刻都考虑大量系统的 “illusory copies” （假想的副本），系统以相等的概率在这些副本之间选择，这种集合 {illusory copies} 。由于每个系统都为相空间中的一个点，因此&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;正如我们所说，我们不再考虑单个系统。我们在每一时刻都考虑大量系统的 “illusory copies” （假想的副本），系统以相等的概率在这些副本之间选择，这种集合 {illusory copies} 就被称为系综。由于每个系统都为相空间中的一个点，因此系综可以被视作相空间上的流体。&lt;/p&gt;
+&lt;p&gt;我们知道，系统的运动方程为 Hamilton 正则方程&lt;/p&gt;
+\[ \dot{q}_i=\frac{\partial H(q, p)}{\partial p_i},\qquad\dot{p}_i=-\frac{\partial H(q, p)}{\partial q_i} \]&lt;p&gt;系统的能量 \( E \) 给定，也就是说系综应该被限制在曲面 \( H(q,p)=E \) 上。根据我们在 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;第一章&lt;/a&gt; 中对理想气体的研究，我们宁愿将曲面 \( H(q,p)=E \) 扩宽成壳层 \( E-\dfrac{1}{2}\Delta &lt; H(q,p) &lt; E+\dfrac{1}{2}\Delta \) ，以 \( \Gamma \) 来代替 \( \Omega \) 进行计数。&lt;/p&gt;
+&lt;p&gt;我们用 \( \rho(q,p,t) \) 来表示在相空间给定点 \( q,p \) 处时间 \( t \) 时的系统密度，考虑力学量 \( f(q,p) \) 的系综平均值&lt;/p&gt;
+\[ \braket{f}=f\ 的系综平均=\frac{\displaystyle{\int f(q,p)\rho(q,p,t)d^{3N}qd^{3N}p}}{\displaystyle{\int \rho(q,p,t)d^{3N}qd^{3N}p}}\]&lt;p&gt;这个值被称为 \( f \) 的统计观测值。&lt;/p&gt;
+&lt;h2 id=&#34;liouville-方程&#34;&gt;Liouville 方程
+&lt;/h2&gt;&lt;p&gt;作为在相空间上的“系统”流体，系综自然也服从流体力学的基本原理，即连续性方程&lt;/p&gt;
+\[ \frac{\partial}{\partial t}\rho(q,p,t)+\mathop{\rm div}[\rho(q,p,t)\bm v]=0 \]&lt;p&gt;其中 \( \bm v \) 为相速度，div 为相空间的 \( 3N \) 维散度。我们把上式散度化简，代入 Hamilton 正则方程，很容易得到&lt;/p&gt;
+\[ \frac{\partial\rho}{\partial t}+\{\rho, H\}=0 \]&lt;p&gt;上式中的花括号为 Poisson 括号。这个式子被称为 &lt;strong&gt;Liouville 方程&lt;/strong&gt; ，容易看出左边正式 \( \dfrac{d\rho}{dt}=\dfrac{\partial\rho}{\partial t}+\{\rho, H\} \) ，因此上述方程也就是 \( \dfrac{d\rho}{dt}=0 \) 。&lt;/p&gt;
+&lt;p&gt;我们将 \( \dfrac{\partial\rho}{\partial t}\equiv 0 \) 的系综称为 &lt;strong&gt;平衡态系综&lt;/strong&gt; ，这些系综中各个系统都处于热平衡。&lt;/p&gt;
+&lt;h2 id=&#34;微正则系综--the-microcanonical-ensemble&#34;&gt;微正则系综 — The Microcanonical Ensemble
+&lt;/h2&gt;&lt;p&gt;微正则系综描述着以 \( N,V,E \) 确定的宏观态对应的系统集合，然而正像我们前面说的，我们宁愿用 \( \left(E-\dfrac{1}{2}\Delta, E+\dfrac{1}{2}\Delta\right) \) 这个区间来代替具体的能量 \( E \) 。我们用 \( \omega=(q,p) \) 来表示相空间的测度，即 \( d\omega=d^{3N}qd^{3N}p \) ，则微正则系综在相空间内占据的体积为&lt;/p&gt;
+\[ \omega = \int&#39;d\omega=\int&#39; d^{3N}qd^{3N}p \]&lt;p&gt;其中带 \( \prime \) 的积分表示在区域 \( E-\dfrac{1}{2}\Delta &lt; H(\omega) &lt; E+\dfrac{1}{2}\Delta \) 中的积分。&lt;/p&gt;
+&lt;p&gt;根据等概率原理，我们知道微正则系综的密度应该是均匀的，即&lt;/p&gt;
+\[ \rho(\omega)=\begin{dcases} \text{const}, &amp; E-\dfrac{1}{2}\Delta &lt; H(\omega) &lt; E+\dfrac{1}{2}\Delta \\ 0, &amp; \text{otherwise} \end{dcases} \]&lt;p&gt;上式不含时间，说明微正则系综是稳定系综，即系统间处于热平衡，因此我们有&lt;/p&gt;
+\[\begin{split}
+\braket{f}&amp;=f\ 的系综平均\\
+&amp;= (f\ 的系综平均)\ 的时间平均\\
+&amp;= (f\ 的时间平均)\ 的系综平均\\
+&amp;= f\ 的长时间平均 = f_{\ 期望值}
+\end{split}\]&lt;p&gt;为了确定状态数，我们需要确定一个基本度量 \( \omega_0 \) ，这个度量相当于状态计数的单位，即 \( \omega \) 体积内的状态数可以渐进表示为 \( \Gamma\simeq\dfrac{\omega}{\omega_0} \) ，此时熵 \( S=k_B\log\Gamma \) 。我们先放出结论，对于自由度为 \( f \) 的系统构成的微正则系综， \( \omega_0=h^f \) 为 Planck 常数的 \( f \) 次幂。&lt;/p&gt;
+&lt;h2 id=&#34;实例-1--理想气体&#34;&gt;实例 1 — 理想气体
+&lt;/h2&gt;&lt;p&gt;系综的体积为&lt;/p&gt;
+\[\begin{split}
+    \omega &amp;= \int&#39; d\omega=\int&#39; d^{3N}q \int&#39; d^{3N}p \\
+    &amp;= V^N\mathop{\displaystyle{\int\cdots\int}}\limits_{\left(E-\frac{1}{2}\Delta\right) &lt; \sum_{r=1}^{3N}\frac{p_r^2}{2m} &lt; \left(E+\frac{1}{2}\Delta\right)}d^{3N}p\xlongequal{y_r^2=\frac{p_r^2}{2m}} V^N\mathop{\displaystyle{\int\cdots\int}}\limits_{2m\left(E-\frac{1}{2}\Delta\right) &lt; \sum_{r=1}^{3N}y_r^2 &lt; 2m\left(E+\frac{1}{2}\Delta\right)}d^{3N}y
+\end{split}\]&lt;p&gt;我们用 \( S_{n-1}(R) \) 和 \( V_n(R) \) 来表示 \( n \) 维球的表面积和体积，注意到 \( dV_n(R)=S_{n-1}(R)dR \) ，上式等于&lt;/p&gt;
+\[\omega = V_{3N}\left[\sqrt{2m\left(E+\frac{1}{2}\Delta\right)}\right] - V_{3N}\left[\sqrt{2m\left(E-\frac{1}{2}\Delta\right)}\right] \simeq 
+\Delta\sqrt{\frac{m}{2E}} S_{3N-1}\left(\sqrt{2mE}\right) \]&lt;p&gt;算出为 \( \omega\simeq\dfrac{\Delta}{E}V^N\dfrac{(2\pi mE)^{3N/2}}{[(3N/2)-1]!} \) ，回到 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;第一章&lt;/a&gt; 中对理想气体的研究中得到的 \( \Gamma \) ，两式相除得到 \( (\omega/\Gamma)_\text{asymptotic}\equiv\omega_0=h^{3N} \) 。&lt;/p&gt;
+&lt;h2 id=&#34;实例-2--1-维谐振子&#34;&gt;实例 2 — 1 维谐振子
+&lt;/h2&gt;&lt;p&gt;一维谐振子的 Hamilton 量为 \( H(\omega)=\dfrac{p^2}{2m}+\dfrac{1}{2}m\omega^2q^2 \) ，通过求解 Liouville 方程可以确定其相空间轨迹为如下椭圆：&lt;/p&gt;
+\[\frac{q^2}{2E/m\omega^2}+\frac{p^2}{2mE}=1\]&lt;p&gt;其面积为 \( \pi\cdot\sqrt{\dfrac{2E}{m\omega^2}}\cdot\sqrt{2mE}=\dfrac{2\pi E}{\omega} \) ，考虑此式的差值即为&lt;/p&gt;
+\[\omega=\int&#39;d\omega=\left.\dfrac{2\pi E}{\omega}\right|_{E-\frac{1}{2}\Delta}^{E+\frac{1}{2}\Delta}=\frac{2\pi\Delta}{\omega}\]&lt;p&gt;我们知道，谐振子的相邻两条能级之间的间距为 \( \hbar\omega=\dfrac{h\omega}{2\pi} \) ，因此状态数应该接近于 \( \Gamma\simeq\dfrac{\Delta}{\hbar\omega}=\dfrac{2\pi\Delta}{h\omega} \) ，由此基本体积确定为 \( \omega_0\simeq\dfrac{\omega}{\Gamma}=h \) ，这与 Heisenberg 的不确定性关系 \( \left(\Delta q\Delta p\right)_{\min}\simeq h \ 量级 \) 不谋而合。&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e9%ab%98%e7%ad%89%e7%bb%9f%e8%ae%a1%e7%89%a9%e7%90%86/&#34; &gt;返回目录&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%83%ad%e5%8a%9b%e5%ad%a6%e7%b3%bb%e7%bb%9f/&#34; &gt;上一篇&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/%e7%b3%bb%e7%bb%bc%e7%90%86%e8%ae%ba/&#34; &gt;下一篇&lt;/a&gt;&lt;/p&gt;
