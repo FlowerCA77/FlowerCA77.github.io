@@ -48,9 +48,15 @@
 &lt;li&gt;物质 — 被困在每个系统中无法交换&lt;/li&gt;
 &lt;li&gt;能量 — 可以在两个系统之间交换，但无法向环境交换&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;{{ with .Resources.GetMatch &amp;ldquo;fig1-1.png&amp;rdquo; }}
-&lt;img src=&#34;{{ .RelPermalink }}&#34; width=&#34;{{ .Width }}&#34; height=&#34;{{ .Height }}&#34;&gt;
-{{ end }}&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/figures/fig1-1.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;
+&lt;em&gt;细线表示导热隔板，粗线表示绝热隔板&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;用指标 \( i=1,2 \) 来区分两个系统，设两个系统的总能量(明显恒定)为 \( E^{(0)}=E_1+E_2=\text{const} \)，则总系统的状态数为
 &lt;/p&gt;
 \[
@@ -162,7 +168,17 @@
     S(N,V,E)\simeq Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B
 \]&lt;h2 id=&#34;gibbs-计数修正&#34;&gt;Gibbs 计数修正
 &lt;/h2&gt;&lt;p&gt;我们来考虑气体的混合问题。&lt;/p&gt;
-&lt;p&gt;修正的方法就是在上述计算中令 \( S\leftarrow S-k_B\log(N!) \) ，这样得出的熵叫做 &lt;strong&gt;Sackur-Tetrode 方程&lt;/strong&gt; ，即
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/figures/fig1-2.svg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;图中两种气体被导热隔板隔开，令 \( N=N_1+N_2 \) , \( V=V_1+V_2 \) ，热平衡时，其熵为两者之和&lt;/p&gt;
+\[ S_0=\sum_{i=1,2}\left\{N_i k_B\log V_i+\frac{3}{2} N_i k_B\left[1+\log\left(\frac{2\pi m_i k_B T}{h^2}\right)\right]\right\}\]&lt;p&gt;混合后，其熵变为&lt;/p&gt;
+\[ S_0=\sum_{i=1,2}\left\{N_i k_B\log V+\frac{3}{2} N_i k_B\left[1+\log\left(\frac{2\pi m_i k_B T}{h^2}\right)\right]\right\}\]&lt;p&gt;修正上述问题的方法就是在上述计算中令 \( S\leftarrow S-k_B\log(N!) \) 使 \( (\Delta S)^*_{1\equiv 2}=0 \) ，这样得出的熵叫做 &lt;strong&gt;Sackur-Tetrode 方程&lt;/strong&gt; ，即
 &lt;/p&gt;
 \[\begin{split}
     S(N,V,E) &amp;= Nk_B\log\left[\frac{V}{h^3}\left(\frac{4\pi mE}{3N}\right)^{3/2}\right]+\frac{3}{2}Nk_B - k_B(N\log N-N)\\
