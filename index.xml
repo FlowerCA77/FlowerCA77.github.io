@@ -47,7 +47,8 @@
 &amp;\quad \mathtt{output}&amp; &amp;y_2&amp; \\
 &amp;\qquad S_1 &amp; &amp; y_2\leftarrow\ M(x_2,w) &amp; \\
 &amp;\qquad S_2 &amp; &amp; \mathtt{return}\ y_2&amp; \\
-\end{align*}\right.\]</description>
+\end{align*}\right.\]&lt;p&gt;可以看到，\( 反馈=训练, 执行=预测 \) 。&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>kNN 算法</title>
